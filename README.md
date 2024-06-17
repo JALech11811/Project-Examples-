@@ -36,13 +36,29 @@ git pull : fetch any code from remote main repo that is not on local
 git branch -a  : fetches all branches 
 '''
 
-7. Add changes to file 
+7. Add changes to file / index new and modified files
 '''
 git add .   adds all changes 
 git add -A  adds all changes 
-
-8. Help 
 '''
+
+8. Committing changes from local to remote
+''' 
+git commit -m "TYPE WHAT YOU WANT IN SPACES"
+git commit -m TYPEWHATYOUWANT
+
+'''
+
+9. Git push changes to remote from local
+'''
+git push origin
+if it fails means you need to publish the branch, you will get something like this
+git push --set-upstream origin addcommandstomakefile  -> this is the name of the branch
+'''
+
+10. Help 
+'''
+git help
 --help
 '''
 
