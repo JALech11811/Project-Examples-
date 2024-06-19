@@ -14,6 +14,8 @@ This repo will be used to house all project examples for my personal development
 8. Create a PR for code review 
     a. Let colleagues review if required 
 9. Merge to master branch
+10. Checkout of dev branch once changes have been merged to master using git checkout main
+11. Pull the remote changes from main branch into local machine using git pull on main branch
 ```
 
 ## Git Commands
