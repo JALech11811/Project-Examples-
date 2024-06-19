@@ -76,6 +76,12 @@ shift+command+p
 this is an easy way to open the search bar on top to review/search for something 
 ```
 
+13. Search log 
+```bash
+git log    contains information about actions 
+can add or commit from here if needed 
+```
+
 
 ## CLI Commands
 
