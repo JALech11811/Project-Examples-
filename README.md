@@ -56,7 +56,15 @@ if it fails means you need to publish the branch, you will get something like th
 git push --set-upstream origin addcommandstomakefile  -> this is the name of the branch
 '''
 
-10. Help 
+10. Create a Pull Request for code review
+'''
+in git itself you click create pull request
+or 
+after you run git push 
+you can ctrl/command click the link
+'''
+
+11. Help 
 '''
 git help
 --help
