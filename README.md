@@ -1,6 +1,21 @@
 # Project-Examples-
 This repo will be used to house all project examples for my personal development 
 
+
+## High Level Git Steps 
+```bash
+1. Clone prod code using git clone
+2. Create dev branch with git checkout 
+3. Do the code changes
+4. Check what we have modified with git status
+5. Index the modified files with git add .
+6. Commit the files/changes with git commit -m’Message’
+7. Push from local branch to remote branch using git push origin
+8. Create a PR for code review 
+    a. Let colleagues review if required 
+9. Merge to master branch
+```
+
 ## Git Commands
 
 1. See status of your branch/main 
