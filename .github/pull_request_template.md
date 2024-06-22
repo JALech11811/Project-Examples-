@@ -4,9 +4,6 @@ Please include a summary of the changes and the related issue. Please also inclu
 
 Fixes # (issue)
 
-What were the changes?
-
-- [] Add your list here
 
 ## Type of change
 
