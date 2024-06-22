@@ -102,45 +102,60 @@ can add or commit from here if needed
 
 ## CLI Commands
 
-1. List the directory contents
+1. Display current file path
+```bash
+pwd
+```
+2. List the directory contents
 ```bash
 ls
 ```
 
-2. Make a new directory
+3. Make a new directory
 ```bash
 Mkdir NAMEOFDIRECTORY
 ```
 
-3. Navigate to directory
+4. Navigate to directory
 ```bash
 cd DIRECTORYNAME
 ```
 
-4. Display current file path
+5. Go back one level
+```bash
+cd../
+```
+
+6. Create a new file
+```bash
+touch FILENAME
+```
+
+
+7. Display current file path
 ```bash
 pwd
 ```
 
-5. Deleting
+8. Deleting
 ```bash
 rm FILENAME  deletes a file
 rm -r DIRECTORYNAME  deletes a directory
 rm -f FILENAME  force deletes a file
 ```
 
-6. Update file access/create a file if it doesn't exist
+9. Update file access/create a file if it doesn't exist
 ```bash
 touch FILENAME
 ```
 
-7. Moving/renaming
+10. Moving/renaming
 ```bash
 mv OLDFILENAME NEWFILENAME
-mv FILENMAE DIRECTORYNAME
+mv FILENAME DIRECTORYNAME
 ```
 
-8. Copy
+11. Copy
 ```bash
-cp FILENMAE DIRECTORYNAME
+cp FILENAME DIRECTORYNAME
 ```
