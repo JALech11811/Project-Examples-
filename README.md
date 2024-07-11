@@ -106,6 +106,12 @@ can add or commit from here if needed
 ```bash
 pwd
 ```
+
+To output the contents of one or more files or another source of input
+```bash
+cat file1 file2 ...
+```
+
 2. List the directory contents
 ```bash
 ls
