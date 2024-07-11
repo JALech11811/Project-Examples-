@@ -107,40 +107,36 @@ can add or commit from here if needed
 pwd
 ```
 
-To output the contents of one or more files or another source of input
+2. To output the contents of one or more files or another source of input
 ```bash
 cat file1 file2 ...
 ```
 
-2. List the directory contents
+3. List the directory contents
 ```bash
-ls
+ls  lists content of a directory (horizontal)
+ls -l detailed long list of content in a directory (vertical)
+ls -F displays the file type in the directory
 ```
 
-3. Make a new directory
+4. Make a new directory
 ```bash
 Mkdir NAMEOFDIRECTORY
 ```
 
-4. Navigate to directory
+5. Navigate to directory
 ```bash
 cd DIRECTORYNAME
 ```
 
-5. Go back one level
+6. Go back one level
 ```bash
 cd../
 ```
 
-6. Create a new file
+7. Create a new file
 ```bash
 touch FILENAME
-```
-
-
-7. Display current file path
-```bash
-pwd
 ```
 
 8. Deleting
